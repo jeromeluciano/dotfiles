@@ -17,4 +17,6 @@ Wofi
 wlogout
 ![image](https://github.com/jeromeluciano/dotfiles/assets/44360980/052931c5-4cd2-480b-ac4e-11cccc595093)
 
+neovim
+![image](https://github.com/jeromeluciano/dotfiles/assets/44360980/8d068322-d2a2-4af5-925c-fd6f61be053c)
 
