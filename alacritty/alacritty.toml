@@ -1,0 +1,12 @@
+shell = {
+  program = "/bin/zsh"
+}
+
+colors.primary.background = #111011
+
+colors = {
+  primary = {
+    background = #111011
+  }
+}
+

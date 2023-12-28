@@ -1,0 +1,21 @@
+#!/bin/bash
+
+swaylock \
+	--screenshots \
+	--clock \
+  --timestr "%I:%M %p" \
+	--indicator \
+	--indicator-radius 150 \
+	--indicator-thickness 7 \
+	--effect-blur 7x5 \
+	--effect-vignette 0.5:0.5 \
+	--ring-color DBEAFE \
+	--key-hl-color 6366F1 \
+	--line-color 00000000 \
+	--inside-color 000000B2 \
+  --inside-ver-color DBEAFE \
+  --text-ver-color 171717 \
+	--separator-color 00000000 \
+  --text-color DBEAFE \
+	--grace 2 \
+	--fade-in 0.2

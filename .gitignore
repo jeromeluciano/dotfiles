@@ -1,0 +1,16 @@
+# ignore everything in this repository
+/*
+
+!/.gitignore
+!/dunst
+!/alacritty
+!/wlogout
+!/wofi
+!/nvim
+!/wallpapers
+!/waybar
+!/swaylock
+!/spotify-flags.conf
+!/electron25-flags.conf
+!/hypr
+
