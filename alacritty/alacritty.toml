@@ -9,7 +9,7 @@ family = "Berkeley Mono"
 style = "Regular"
 
 [font]
-size = 11.0
+size = 12.0
 
 [window]
 dynamic_padding = false

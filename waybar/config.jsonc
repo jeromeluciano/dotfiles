@@ -5,7 +5,7 @@
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["custom/arch", "hyprland/workspaces", "sway/mode", "sway/scratchpad", "custom/media", "custom/playerctl"],
+    "modules-left": ["custom/arch", "hyprland/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
     "modules-center": ["sway/window", "clock"],
     "modules-right": ["tray", "network", "pulseaudio", "temperature", "cpu", "memory", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "custom/power-options"],
     // Modules configuration

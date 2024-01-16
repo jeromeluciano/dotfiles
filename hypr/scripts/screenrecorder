@@ -1,0 +1,19 @@
+#!/bin/env bash
+
+wf_recorder_check() {
+
+    if pgrep -x "wf-recorder" > /dev/null; then
+        pkill -INT -x wf-recorder
+        notify-send "Stopping all wf-recorder instances" "$(cat /tmp/recording.txt)"
+        wl-copy < "$(cat /tmp/recording.txt)"
+        exit 0
+   fi
+}
+
+wf_recorder_check
+
+VID="${HOME}/Videos/$(date +%Y-%m-%d_%H-%m-%s).mp4"
+
+echo "$VID" > /tmp/recording.txt
+
+wf-recorder -a -o "$(slurp)" -f "$VID" &>/dev/null
