@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ $(pgrep -x "picom" > /dev/null; echo $?) -eq 0 ]; then
+    notify-send "Picom is running!"
+    pkill picom
+else
+    picom -b --config ~/.config/picom/picom.conf
+    notify-send "Picom is running!"
+fi

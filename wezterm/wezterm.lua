@@ -6,10 +6,8 @@ if wezterm.config_builder then
     config = wezterm.config_builder()
 end
 
-config.enable_wayland = false
-
 config.colors = {
-    background = '#000',
+    background = '#111',
     foreground = '#fff',
     cursor_bg = '#fff'
 }
@@ -32,6 +30,8 @@ config.window_padding = {
     bottom = 0,
 }
 
+config.window_background_opacity = 0.81
+
 config.leader = { key = 'a', mods = 'CTRL', timeout_milliseconds = 500 }
 
 config.keys = {
@@ -49,6 +49,6 @@ config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
 
 -- config.freetype_load_flags = 'NO_HINTING'
--- config.freetype_render_target = "HorizontalLcd"
+config.freetype_render_target = "HorizontalLcd"
 
 return config
