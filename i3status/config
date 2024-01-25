@@ -62,12 +62,12 @@ load {
 }
 
 cpu_temperature 0 {
-        format = "T: %degrees °C"
+        format = "🔥: %degrees °C"
         path = "/sys/class/hwmon/hwmon1/temp1_input"
 }
 
 memory {
-        format = "%used"
+        format = "🧠 %used/%total"
         threshold_degraded = "10%"
         format_degraded = "MEMORY: %free"
 }
